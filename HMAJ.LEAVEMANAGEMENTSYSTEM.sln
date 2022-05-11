@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F6442269-EBE0-4711-875E-364808653EB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0C45CA2C-DDF1-455C-B912-81EC68BED072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement.Domain", "src\Core\LeaveManagement.Domain\LeaveManagement.Domain.csproj", "{AD85CCED-173B-42CC-9F07-83273C791DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement.Application", "src\Core\LeaveManagement.Application\LeaveManagement.Application.csproj", "{D9979CFE-57CB-48FD-B388-144DDEAA6096}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{72930D8D-3049-479D-9E20-9076DB6B31FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement.API", "src\API\LeaveManagement.API\LeaveManagement.API.csproj", "{3951EDCA-1A7D-4DA7-BAF1-D61001BA376D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6E40FC6B-55BC-4E46-9B5D-E74BC3A1B7AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement.Infrastructure", "src\Infrastructure\LeaveManagement.Infrastructure\LeaveManagement.Infrastructure.csproj", "{2259D20F-F7B8-4D0C-8093-B2551216B967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeaveManagement.Persistence", "src\Infrastructure\LeaveManagement.Persistence\LeaveManagement.Persistence.csproj", "{AD38E937-BFCE-4459-A093-C30FC8859148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD85CCED-173B-42CC-9F07-83273C791DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD85CCED-173B-42CC-9F07-83273C791DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD85CCED-173B-42CC-9F07-83273C791DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD85CCED-173B-42CC-9F07-83273C791DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9979CFE-57CB-48FD-B388-144DDEAA6096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9979CFE-57CB-48FD-B388-144DDEAA6096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9979CFE-57CB-48FD-B388-144DDEAA6096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9979CFE-57CB-48FD-B388-144DDEAA6096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3951EDCA-1A7D-4DA7-BAF1-D61001BA376D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3951EDCA-1A7D-4DA7-BAF1-D61001BA376D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3951EDCA-1A7D-4DA7-BAF1-D61001BA376D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3951EDCA-1A7D-4DA7-BAF1-D61001BA376D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2259D20F-F7B8-4D0C-8093-B2551216B967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2259D20F-F7B8-4D0C-8093-B2551216B967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2259D20F-F7B8-4D0C-8093-B2551216B967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2259D20F-F7B8-4D0C-8093-B2551216B967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD38E937-BFCE-4459-A093-C30FC8859148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD38E937-BFCE-4459-A093-C30FC8859148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD38E937-BFCE-4459-A093-C30FC8859148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD38E937-BFCE-4459-A093-C30FC8859148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C45CA2C-DDF1-455C-B912-81EC68BED072} = {F6442269-EBE0-4711-875E-364808653EB7}
+		{AD85CCED-173B-42CC-9F07-83273C791DC7} = {0C45CA2C-DDF1-455C-B912-81EC68BED072}
+		{D9979CFE-57CB-48FD-B388-144DDEAA6096} = {0C45CA2C-DDF1-455C-B912-81EC68BED072}
+		{72930D8D-3049-479D-9E20-9076DB6B31FD} = {F6442269-EBE0-4711-875E-364808653EB7}
+		{3951EDCA-1A7D-4DA7-BAF1-D61001BA376D} = {72930D8D-3049-479D-9E20-9076DB6B31FD}
+		{6E40FC6B-55BC-4E46-9B5D-E74BC3A1B7AE} = {F6442269-EBE0-4711-875E-364808653EB7}
+		{2259D20F-F7B8-4D0C-8093-B2551216B967} = {6E40FC6B-55BC-4E46-9B5D-E74BC3A1B7AE}
+		{AD38E937-BFCE-4459-A093-C30FC8859148} = {6E40FC6B-55BC-4E46-9B5D-E74BC3A1B7AE}
+	EndGlobalSection
+EndGlobal
